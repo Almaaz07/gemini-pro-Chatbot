@@ -28,7 +28,7 @@ app.post('/submit',async (req, res) => {
   
     // res.json({ message: 'Form data received successfully', data: formData });
    
-      const genAi = new GoogleGenerativeAI("AIzaSyCkWGVCByyBA7kUR-CY1XVLShvITSei8y8");
+      const genAi = new GoogleGenerativeAI("your api key");
       
       const model = genAi. getGenerativeModel({
           model:"gemini-1.5-pro",
